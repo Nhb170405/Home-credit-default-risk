@@ -63,7 +63,7 @@ home-credit-default-risk/
 3. **Download Data:**
    Download the dataset from the Kaggle Competition Page.
 
-Extract all .csv files into the data/ folder.
+   Extract all .csv files into the data/ folder.
 
-4.  **Run Notebooks:**
-    Open and execute the notebooks in the notebooks/ directory sequentially, starting from eda.ipynb.
+4. **Run Notebooks:**
+   Open and execute the notebooks in the notebooks/ directory sequentially, starting from eda.ipynb.
