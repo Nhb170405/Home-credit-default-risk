@@ -45,3 +45,22 @@ home-credit-default-risk/
 ├── .gitignore                      # Git ignore rules
 └── README.md                       # Project documentation
 ```
+
+⚙️ How to Run
+Clone the repository:
+
+Bash
+git clone [https://github.com/Nhb170405/Home-credit-default-risk.git](https://github.com/Nhb170405/Home-credit-default-risk.git)
+cd YOUR-REPO-NAME-HERE
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Download Data:
+
+Download the dataset from the Kaggle Competition Page.
+
+Extract all .csv files into the data/ folder.
+
+Run Notebooks:
+Open and execute the notebooks in the notebooks/ directory sequentially, starting from 01_eda.ipynb.
