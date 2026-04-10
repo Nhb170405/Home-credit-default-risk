@@ -39,28 +39,31 @@ Trained and evaluated advanced gradient boosting models to maximize the AUC (Are
 home-credit-default-risk/
 ├── data/                           # (Not tracked by Git) Put Kaggle raw data here
 ├── notebooks/
-│   ├── 01_eda.ipynb                # Exploratory Data Analysis
-│   └── 02_feature_engineering.ipynb# Feature creation & Memory optimization
+│   ├── eda.ipynb                # Exploratory Data Analysis
+│   └── feature_engineering.ipynb# Feature creation & Memory optimization
 ├── requirements.txt                # Project dependencies
 ├── .gitignore                      # Git ignore rules
 └── README.md                       # Project documentation
 ```
 
-⚙️ How to Run
-Clone the repository:
+## ⚙️ How to Run
 
-Bash
-git clone [https://github.com/Nhb170405/Home-credit-default-risk.git](https://github.com/Nhb170405/Home-credit-default-risk.git)
-cd YOUR-REPO-NAME-HERE
-Install dependencies:
+1. **Clone the repository:**
 
-Bash
-pip install -r requirements.txt
-Download Data:
+   ```bash
+   git clone https://github.com/Nhb170405/Home-credit-default-risk.git
+   cd Home-credit-default-risk
+   ```
 
-Download the dataset from the Kaggle Competition Page.
+2. **Install dependencies:**
+   Bash
+   pip install -r requirements.txt
+   Download Data:
+
+3. **Download Data:**
+   Download the dataset from the Kaggle Competition Page.
 
 Extract all .csv files into the data/ folder.
 
-Run Notebooks:
-Open and execute the notebooks in the notebooks/ directory sequentially, starting from 01_eda.ipynb.
+4.  **Run Notebooks:**
+    Open and execute the notebooks in the notebooks/ directory sequentially, starting from eda.ipynb.
